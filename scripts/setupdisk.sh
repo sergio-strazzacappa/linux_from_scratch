@@ -19,3 +19,6 @@ p
 w
 q
 EOF
+
+sudo mkfs -t ext2 ${LFS_DISK}1
+sudo mkfs -t ext2 ${LFS_DISK}2
