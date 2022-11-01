@@ -7,4 +7,5 @@ sleep 2
 
 echo "Verificando requisitos"
 sleep 2
+chmod +x requisitos.sh
 ./requisitos.sh
