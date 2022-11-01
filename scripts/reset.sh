@@ -7,6 +7,9 @@ sudo umount -v "${LFS_DISK}"2
 sudo rm -rvf $LFS
 
 sudo fdisk "$LFS_DISK" << EOF
+d
+1
+d
 o
 p
 w
