@@ -1,11 +1,12 @@
-#! /bin/bash
-#
-# Script para instalar Linux From Scratch
+#!/bin/bash
 
-echo "Comenzando ..."
-sleep 2
+export LFS=/mnt/lfs
+export LFS_DISK=/dev/sda
 
-echo "Verificando requisitos"
-sleep 2
-chmod +x requisitos.sh
-./requisitos.sh
+#sleep 1
+#chmod +x requisitos.sh
+#./requisitos.sh
+	
+if ! grep -q "$LFS" /proc/mounts; then
+	source setupdisk.sh "$LFS_DISK"
+fi

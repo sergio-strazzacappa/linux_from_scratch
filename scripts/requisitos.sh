@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Simple script to list version numbers of critical development tools
 
