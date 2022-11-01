@@ -21,4 +21,4 @@ q
 EOF
 
 sudo mkfs -t ext2 ${LFS_DISK}1
-sudo mkfs -t ext2 ${LFS_DISK}2
+sudo mkfs -t ext4 ${LFS_DISK}2
