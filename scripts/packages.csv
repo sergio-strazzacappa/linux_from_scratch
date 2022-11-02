@@ -14,7 +14,7 @@ diffutils;3.8;https://ftp.gnu.org/gnu/diffutils/diffutils-@.tar.xz;6a6b0fdc72acf
 e2fsprogs;1.46.5;https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v@/e2fsprogs-@.tar.gz;3da91854c960ad8a819b48b2a404eb43
 elfutils;0.187;https://sourceware.org/ftp/elfutils/@/elfutils-@.tar.bz2;cc04f07b53a71616b22553c0a458cf4b
 eudev;3.2.11;https://github.com/eudev-project/eudev/releases/download/v@/eudev-@.tar.gz;417ba948335736d4d81874fba47a30f7
-expat;2.4.8;https://prdownloads.sourceforge.net/expat/expat-@.tar.xz;0584a7318a4c007f7ec94778799d72fe
+expat;2.5.0;https://prdownloads.sourceforge.net/expat/expat-@.tar.xz;0584a7318a4c007f7ec94778799d72fe
 expect;5.45.4;https://prdownloads.sourceforge.net/expect/expect@.tar.gz;00fce8de158422f5ccd2666512329bd2
 file;5.42;https://astron.com/pub/file/file-@.tar.gz;4d4f70c3b08a8a70d8baf67f085d7e92
 findutils;4.9.0;https://ftp.gnu.org/gnu/findutils/findutils-@.tar.xz;4a4a547e888a944b2f3af31d789a1137
