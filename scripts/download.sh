@@ -1,10 +1,10 @@
 #! /bin/bash
 
- cat packages.csv | while read line; do
- 	NAME="`echo $line | cut -d\; -f1`"
- 	VERSION="`echo $line | cut -d\; -f2`"
- 	URL="`echo $line | cut -d\; -f3 | sed "s/@/$VERSION/g"`"
- 	MD5SUM="`echo $line | cut -d\; -f4`"
+cat packages.csv | while read line; do
+	NAME="`echo $line | cut -d\; -f1`"
+	VERSION="`echo $line | cut -d\; -f2`"
+	URL="`echo $line | cut -d\; -f3 | sed "s/@/$VERSION/g"`"
+	MD5SUM="`echo $line | cut -d\; -f4`"
 	CACHEFILE="$(basename "$URL")"
 
 	if [ ! -f "$CACHEFILE" ]; then

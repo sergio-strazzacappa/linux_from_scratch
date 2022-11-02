@@ -12,4 +12,7 @@ fi
 sudo mkdir -v $LFS/sources
 sudo chmod -v a+wt $LFS/sources
 
+
+cp -v * /$LFS/sources
+cd $LFS/sources
 source download.sh
