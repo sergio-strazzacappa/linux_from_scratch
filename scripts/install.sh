@@ -3,10 +3,6 @@
 export LFS=/mnt/lfs
 export LFS_DISK=/dev/sda
 
-#sleep 1
-#chmod +x requisitos.sh
-#./requisitos.sh
-	
 if ! grep -q "$LFS" /proc/mounts; then
 	source setupdisk.sh "$LFS_DISK"
 	sudo mkdir -pv $LFS
@@ -14,4 +10,6 @@ if ! grep -q "$LFS" /proc/mounts; then
 fi
 
 sudo mkdir -v $LFS/sources
-#sudo chmod -v a+wt $LFS/sources
+sudo chmod -v a+wt $LFS/sources
+
+source download.sh
