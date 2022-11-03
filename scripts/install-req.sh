@@ -1,7 +1,7 @@
 #! /bin/bash
 
 sudo pacman -Sy
-sudo pacman -S bash 
+sudo pacman -S bash
 sudo pacman -S binutils
 sudo pacman -S bison
 sudo pacman -S coreutils

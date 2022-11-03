@@ -1,3 +1,4 @@
+PROGRAM;VERSION;URL;MD5SUM;SHA256SUM
 acl;2.3.1;https://download.savannah.gnu.org/releases/acl/acl-@.tar.xz;95ce715fe09acca7c12d3306d0f076b2
 attr;2.5.1;https://download.savannah.gnu.org/releases/attr/attr-@.tar.gz;ac1c5a7a084f0f83b8cace34211f64d8
 autoconf;2.71;https://ftp.gnu.org/gnu/autoconf/autoconf-@.tar.xz;12cfa1687ffa2606337efe1a64416106
@@ -14,7 +15,7 @@ diffutils;3.8;https://ftp.gnu.org/gnu/diffutils/diffutils-@.tar.xz;6a6b0fdc72acf
 e2fsprogs;1.46.5;https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v@/e2fsprogs-@.tar.gz;3da91854c960ad8a819b48b2a404eb43
 elfutils;0.187;https://sourceware.org/ftp/elfutils/@/elfutils-@.tar.bz2;cc04f07b53a71616b22553c0a458cf4b
 eudev;3.2.11;https://github.com/eudev-project/eudev/releases/download/v@/eudev-@.tar.gz;417ba948335736d4d81874fba47a30f7
-expat;2.4.8;https://github.com/libexpat/libexpat/releases/download/R_2_4_8/expat-@.tar.xz;0584a7318a4c007f7ec94778799d72fe
+expat;2.4.9;https://prdownloads.sourceforge.net/expat/expat-@.tar.xz;0584a7318a4c007f7ec94778799d72fe
 expect;5.45.4;https://prdownloads.sourceforge.net/expect/expect@.tar.gz;00fce8de158422f5ccd2666512329bd2
 file;5.42;https://astron.com/pub/file/file-@.tar.gz;4d4f70c3b08a8a70d8baf67f085d7e92
 findutils;4.9.0;https://ftp.gnu.org/gnu/findutils/findutils-@.tar.xz;4a4a547e888a944b2f3af31d789a1137
@@ -37,7 +38,7 @@ iproute2;5.19.0;https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-@.t
 kbd;2.5.1;https://www.kernel.org/pub/linux/utils/kbd/kbd-@.tar.xz;10f10c0a9d897807733f2e2419814abb
 kmod;30;https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-@.tar.xz;85202f0740a75eb52f2163c776f9b564
 less;590;https://www.greenwoodsoftware.com/less/less-@.tar.gz;f029087448357812fba450091a1172ab
-lfs-bootscripts;20220723);https://www.linuxfromscratch.org/lfs/downloads/11.2/lfs-bootscripts-@.tar.xz;74884d0d91616f843599c99a333666da
+lfs-bootscripts;20220723;https://www.linuxfromscratch.org/lfs/downloads/11.2/lfs-bootscripts-@.tar.xz;74884d0d91616f843599c99a333666da
 libcap;2.65;https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-@.tar.xz;3543e753dd941255c4def6cc67a462bb
 libffi;3.4.2;https://github.com/libffi/libffi/releases/download/v@/libffi-@.tar.gz;294b921e6cf9ab0fbaea4b639f8fdbe8
 libpipeline;1.5.6;https://download.savannah.gnu.org/releases/libpipeline/libpipeline-@.tar.gz;829c9ba46382b0b3e12dd11fcbc1bb27
@@ -76,5 +77,11 @@ vim;9.0.0228;https://anduin.linuxfromscratch.org/LFS/vim-@.tar.gz;bc7e0a4829d94b
 wheel;0.37.1;https://anduin.linuxfromscratch.org/LFS/wheel-@.tar.gz;f490f1399e5903706cb1d4fbed9ecb28
 xml::parser;2.46;https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-@.tar.gz;80bb18a8e6240fcf7ec2f7b57601c170
 xz utils;5.2.6;https://tukaani.org/xz/xz-@.tar.xz;d9cd5698e1ec06cf638c0d2d645e8175
-zlib;1.2.12;https://zlib.net/zlib-@.tar.xz;28687d676c04e7103bb6ff2b9694c471
+zlib;1.2.13;https://zlib.net/zlib-@.tar.xz;28687d676c04e7103bb6ff2b9694c471
 zstd;1.5.2;https://github.com/facebook/zstd/releases/download/v@/zstd-@.tar.gz;072b10f71f5820c24761a65f31f43e73
+bzip2 documentation patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/bzip2-1.0.8-install_docs-1.patch;6a5ac7e89b791aae556de0f745916f7f
+coreutils internationalization fixes patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/coreutils-9.1-i18n-1.patch;c1ac7edf095027460716577633da9fc5
+glibc fhs patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/glibc-2.36-fhs-1.patch;9a5997c3452909b1769918c759eff8a2
+kbd backspace/delete fix patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/kbd-2.5.1-backspace-1.patch;f75cca16a38da6caa7d52151f7136895
+sysvinit consolidated patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/sysvinit-3.04-consolidated-1.patch;4900322141d493e74020c9cf437b2cdc
+zstd upstream fixes patch;;https://www.linuxfromscratch.org/patches/lfs/11.2/zstd-1.5.2-upstream_fixes-1.patch;a7e576e3f87415fdf388392b257cdcf3
